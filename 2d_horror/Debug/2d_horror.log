@@ -1,0 +1,80 @@
+﻿Build started 9/2/2016 9:16:19 PM.
+     1>Project "D:\projects\summer project\2d_horror\2d_horror.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (2d_horror.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SFML-2.3\include\\" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt character.cpp collision.cpp npc.cpp speech.cpp enemy_medium.cpp game.cpp level.cpp enemy_easy.cpp enemy_boss.cpp light.cpp main.cpp main_menu.cpp map_loader.cpp map_parser.cpp player.cpp
+         player.cpp
+     1>d:\projects\summer project\2d_horror\player.cpp(77): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\projects\summer project\2d_horror\player.cpp(82): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         map_parser.cpp
+     1>d:\projects\summer project\2d_horror\map_parser.cpp(19): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\summer project\2d_horror\map_parser.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+         map_loader.cpp
+     1>d:\projects\summer project\2d_horror\map_loader.cpp(11): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\summer project\2d_horror\map_loader.cpp(12): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\summer project\2d_horror\map_loader.cpp(15): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>d:\projects\summer project\2d_horror\map_loader.cpp(24): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         main_menu.cpp
+     1>d:\projects\summer project\2d_horror\main_menu.cpp(13): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>d:\projects\summer project\2d_horror\main_menu.cpp(18): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>d:\projects\summer project\2d_horror\main_menu.cpp(34): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>d:\projects\summer project\2d_horror\main_menu.cpp(37): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>d:\projects\summer project\2d_horror\main_menu.cpp(87): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>d:\projects\summer project\2d_horror\main_menu.cpp(88): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>d:\projects\summer project\2d_horror\main_menu.cpp(100): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>d:\projects\summer project\2d_horror\main_menu.cpp(106): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+         main.cpp
+     1>d:\projects\summer project\2d_horror\enemy_easy.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\projects\summer project\2d_horror\enemy_medium.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\projects\summer project\2d_horror\enemy_boss.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         light.cpp
+     1>d:\projects\summer project\2d_horror\light.cpp(19): warning C4244: 'argument' : conversion from 'float' to 'sf::Uint8', possible loss of data
+         enemy_boss.cpp
+     1>d:\projects\summer project\2d_horror\enemy_boss.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\projects\summer project\2d_horror\enemy_boss.cpp(14): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\projects\summer project\2d_horror\enemy_boss.cpp(15): warning C4244: '=' : conversion from 'const float' to 'int', possible loss of data
+     1>d:\projects\summer project\2d_horror\enemy_boss.cpp(125): warning C4018: '>=' : signed/unsigned mismatch
+         enemy_easy.cpp
+     1>d:\projects\summer project\2d_horror\enemy_easy.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\projects\summer project\2d_horror\enemy_easy.cpp(23): warning C4018: '>=' : signed/unsigned mismatch
+         level.cpp
+     1>d:\projects\summer project\2d_horror\level.cpp(136): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\projects\summer project\2d_horror\level.cpp(137): warning C4018: '<' : signed/unsigned mismatch
+         game.cpp
+     1>d:\projects\summer project\2d_horror\enemy_easy.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\projects\summer project\2d_horror\enemy_medium.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\projects\summer project\2d_horror\enemy_boss.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         enemy_medium.cpp
+     1>d:\projects\summer project\2d_horror\enemy_medium.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\projects\summer project\2d_horror\enemy_medium.cpp(23): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\projects\summer project\2d_horror\enemy_medium.cpp(34): warning C4305: '=' : truncation from 'double' to 'float'
+         speech.cpp
+         npc.cpp
+     1>d:\projects\summer project\2d_horror\npc.cpp(39): warning C4018: '>=' : signed/unsigned mismatch
+         collision.cpp
+         character.cpp
+     1>d:\projects\summer project\2d_horror\character.cpp(5): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+     1>d:\projects\summer project\2d_horror\level.cpp(301): warning C4715: 'Level::nextRoom' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\projects\summer project\Debug\Mansion Mystery.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\SFML-2.3\lib\\" "sfml-system-d.lib" "sfml-window-d.lib" "sfml-graphics-d.lib" "sfml-audio-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\projects\summer project\Debug\Mansion Mystery.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\projects\summer project\Debug\Mansion Mystery.lib" /MACHINE:X86 Debug\character.obj
+         Debug\collision.obj
+         Debug\npc.obj
+         Debug\speech.obj
+         Debug\enemy_medium.obj
+         Debug\game.obj
+         Debug\level.obj
+         Debug\enemy_easy.obj
+         Debug\enemy_boss.obj
+         Debug\light.obj
+         Debug\main.obj
+         Debug\main_menu.obj
+         Debug\map_loader.obj
+         Debug\map_parser.obj
+         Debug\player.obj
+         2d_horror.vcxproj -> D:\projects\summer project\Debug\Mansion Mystery.exe
+     1>Done Building Project "D:\projects\summer project\2d_horror\2d_horror.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.50

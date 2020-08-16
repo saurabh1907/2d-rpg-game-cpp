@@ -1,0 +1,5 @@
+If you don't have visual c++ Redistributable 2012 installed the game will through msvcp120.dll missing.
+Solution- install vcredist_x86 from Redist folder.
+
+Run the game using Mansion Mystery.exe
+Enjoy :)
