@@ -114,8 +114,8 @@ Test Case	:	This test will check if the animation is working correctly.
 Test Procedure	:	Run the game and control the character by using arrow keys .
 Expected Result	:	Animation works perfectly in the environment.
 Actual Result	:	Animation is not working.
-Comment	  :	      Need to check character configuration on inspector window. The appropriate animation was not selected. Select it.
-Conditional Test	:	Again run scene.
+Comment	  :	        Need to check character configuration on inspector window. The appropriate animation was not selected. Select it.
+Conditional Test:	Again run scene.
 Expected Result	:	Animation is working now.
 Actual Result	:	Yes, it is working.
 Accuracy	:	Accuracy depends on hardware configuration.
@@ -126,8 +126,8 @@ Test Case	:	This test will check if the interaction between objects is working c
 Test Procedure	:	Add scripts of interaction in the objects that we want to interact with each other. Run scene.
 Expected Result	:	Objects are interacting.
 Actual Result	:	Run time exception
-Comment	  :	    Need to add checking in the scripts for the objects that have a particular script.
-Conditional Test	:	Run scene.
+Comment	  :	        Need to add checking in the scripts for the objects that have a particular script.
+Conditional Test:	Run scene.
 Expected Result	:	Interaction is ok now.
 Actual Result	:	Interaction is ok now.
 Accuracy	:	Perfectly accurate.
