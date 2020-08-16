@@ -27,11 +27,11 @@ Run the game using Mansion Mystery.exe
 
 ## How to Play
 
-![DHT](images/start.jpg)
+![IMG](images/start.jpg)
 
 The user is presented with Onscreen instructions on how to play the game. Followed by the Game Menu
 
-![DHT](images/instructions.jpg)
+![IMG](images/instructions.jpg)
 
 Using the arrows the player can navigate across the map and use Return key to interact with objects.The game is pretty much self-explanatory and specific instructions are brought up when required. The story unfolds as the game progresses and player has to obtain the 'key' in each level which is required to unlock the next door.
 
@@ -61,33 +61,33 @@ Microsoft Visual Studio is an integrated development environment (IDE) from Micr
 The game consists of 14 Classes and 40 functions designed in such a way so as to minimize coupling and increase cohesion.
 Class Diagram
 
-![DHT](images/class1.png)
+![IMG](images/class1.png)
 
 The Character class is the superclass which contains methods specific to overall movement, position, inter collision of player and Enemy AI. The subclass player holds various essential attributes that govern the player progress in the game.
 
-![DHT](images/class2.jpg)
+![IMG](images/class2.jpg)
 
 
 A level map consist of a 32 x 24 grid. This makes 768 tiles each level where texture is to be drawn. To be able to get information while the game is running, all those intersections have an associated number. This number is called “bitmask” and allows us to set information directly on the grid. This information is stored in a text file which is parsed by Map_parser in a matrix.
 The Map_loader draws the texture corresponding to each matrix element.
 
-![DHT](images/class3.jpg)
+![IMG](images/class3.jpg)
 
 ## Implementation
 ### Characters
-![DHT](images/player.jpg)
+![IMG](images/player.jpg)
 
 Designing an application to render textures and sprites on screen that allows a user to move the sprite across a tile based map unique to each level. In order for this project to be truly successful, the speed of execution must be reasonable. This brings an additional challenge to this project. Indeed, the algorithm that we will use must be accurate as well as optimized to render the game at good frame rates and also consuming minimum of computer memory and processor.
 
 The game should be able to be paused and resumed/restarted without losing any progress.
 When the Boss comes in the vicinity of Player a trigger starts pulsating sound. While avoiding the boss the player needs to complete the objective of taking out the corpse by using tools provided in the level. Taking out the corpse and stabbing it completes the game.
 
-![DHT](images/intro.gif)
+![IMG](images/intro.gif)
 
 ### Lights and Shadows
 I have put a mechanism to restrict the vision of player across the map by adjusting the lights to give a night time atmosphere to the game. The light decreases exponentially with respect to distance from the main character.
 
-![DHT](images/miniboss.png)
+![IMG](images/miniboss.png)
 
 ### Artificial Intelligence
 
@@ -103,7 +103,7 @@ Heuristic used is the euclidean distance between source and destination in x and
 
 Similarly, I improved the algorithm with A* Algorithm which uses the cost function similar to Djkstra's algorithm with and added heuristic like best first search to cost.
 
-![DHT](images/endgame.gif)
+![IMG](images/endgame.gif)
 
 ## Testing
 
