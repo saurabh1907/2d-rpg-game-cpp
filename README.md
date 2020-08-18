@@ -6,7 +6,7 @@
 ## Download
 This is my first attempt to make games, And I really enjoyed it
 
-Direct download - https://onedrive.live.com/redir?resid=42BA9F14034F3876!756&authkey=!AMURWA8X5otI-Ik&ithint=file%2crar
+Download Here - [download](https://onedrive.live.com/redir?resid=42BA9F14034F3876!756&authkey=!AMURWA8X5otI-Ik&ithint=file%2crar)
 
 
 ## Introduction
